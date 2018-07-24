@@ -1,0 +1,9 @@
+﻿Nic Siebenaller
+2/23/2017
+Sprint 3 Initial Implementation
+
+MarioRMushroomCollisionTop.cs
+Chris Washington
+Review time: 5 minutes
+Everything in the class is easily readable and understood. "mush" isn't the most descriptive
+word that could be used, but with the cast it is clear what the item is.

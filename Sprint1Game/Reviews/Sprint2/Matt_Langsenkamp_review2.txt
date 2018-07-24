@@ -1,0 +1,20 @@
+﻿Author of the code review: Matt Langsenkamp
+
+Date of the code review: 2/13/2017
+
+Sprint number: 2
+
+Name of the .cs file being reviewed: MarioSprite.cs, all .cs files in "States" folder
+
+Author of the .cs file being reviewed: Nic Siebenaller
+
+Specific comments on code quality: All of the state classes are well thought out and
+appear to be easily maintainable. The mario class is also concise and well though out. Fields 
+are private and there are no methods that exist that do not need to.
+for fields that need to be accessed outside of the class properties exist. 
+
+A hypothetical change to make to the game related to file being reviewed and how the 
+current implementation could or could not easily support that change: 
+The properties could be above the method constructor for the state classes in some of the stateclasses that it is not.
+potentially the states classes could have inherited from a state baseclass that contained the
+constants.

@@ -1,0 +1,10 @@
+Team 5 
+Burndown Chart Assessment
+Sprint 3
+
+We got together to plan for the initial implementation for this Sprint later than we should have so that is partially why
+there is an increase in the middle of the chart. The other reasons is that times were not fully updated after we met to 
+plan for Sprint 3. Not everything for the initial implementation was met on time either. We were so focused on getting
+the game to work the burndown chart was not properly updated. For Sprint 4, we need to put more emphasis on planning and
+crafting a design that will hit all the necessary specifications. Automated reminders to update the backlog could be useful
+so the burndown chart is properly maintained.

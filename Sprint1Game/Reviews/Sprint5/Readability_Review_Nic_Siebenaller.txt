@@ -1,0 +1,10 @@
+﻿Nic Siebenaller
+4/5/2017
+Sprint 5 Initial Implementation
+
+HeadsUpDisplayPanel.cs
+Chris Washington
+Review time: 5 minutes
+Overall the class is very easy to read. The method calls in Draw() are long, but since they are similar 
+once you uread 1 you can get the rest. The instance variable "distance" could be more descriptive as I 
+don't know what that means at first glance.

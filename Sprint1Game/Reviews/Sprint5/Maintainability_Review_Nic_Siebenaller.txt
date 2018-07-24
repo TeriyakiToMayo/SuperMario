@@ -1,0 +1,13 @@
+﻿Nic Siebenaller
+4/10/2017
+Sprint 5 Refactored Implementation
+
+HeadsUpDisplayPanel.cs
+Chris Washington
+Review time: 5 minutes
+A hypothetical change to the game would be adding a coin sprite to the HUD. Given the class, adding a 
+coin object would be relatively simple as only the location would need to be set and the coin counter
+location may need to be moved slightly. While the class has high coupling as it has many dependencies,
+the class itself is very cohesive as everything in the class has to do with the HUD and getting the 
+necessary data for it. One recommendation for the class would be to make the string literals constants
+at the beginning of the class.

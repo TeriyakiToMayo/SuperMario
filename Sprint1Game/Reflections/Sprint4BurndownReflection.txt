@@ -1,0 +1,8 @@
+﻿Team 5 
+Burndown Chart Assessment
+Sprint 4
+
+For this sprite we did a better job managing the burndown chart compared to the previous sprites.  We over estimated how much time 
+would be needed for many of the task which resulted in a few humps in our brndown chart.  There is a L shape in our burndown chart, but this 
+is due to the fact that we had spring break during this sprite and not much work was done during spring break.  Therefore, the L shpae 
+is no need for concern.  Overall we did a good job getting our backlog assignments finshed in an appropiate time.

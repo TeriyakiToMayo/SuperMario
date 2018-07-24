@@ -1,0 +1,7 @@
+﻿Team 5 
+Burndown Chart Assessment
+Sprint 6
+
+The group did a poor job managing the burndown chart. I think the automated messages were
+being ignored more and people worked on it mostly several days before. We still did a poor
+job updating our times, but I think we will rise up and improve on our next Sprint 7.

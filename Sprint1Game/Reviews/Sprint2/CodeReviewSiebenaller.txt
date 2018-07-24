@@ -1,0 +1,11 @@
+Nic Siebenaller
+2/8/2017
+Sprint 2 Initial Implementation
+
+CoinSprite.cs
+Chris Washington
+Review time: 5 minutes
+I thought all of the code was readable and I understood what was going on. 
+The Update method was a little difficult to follow as currentDrawingFrame 
+and currentSpriteFrame are similarly named and could mean close to the same
+thing.

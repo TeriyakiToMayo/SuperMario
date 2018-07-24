@@ -1,0 +1,12 @@
+﻿Author: Zhen Tian
+Date: 2017.3.10
+Sprint Number: 4
+Reviewed File: Camera/Camera2D.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+What is readable and what is not:
+The field names of Camera2D.cs are easy to understand. However, the casing of 
+public static variable "cameraX" should be in Pascal style. The names of methods 
+of Camera2D.cs are in correct style but some of them are not easy to understand. 
+For instance, method "Move" is kind of confusing. 

@@ -1,0 +1,11 @@
+﻿Reviewing:  Zhen Tian
+Author of Review: Chris Washington
+Sprint 2
+Date: 2/8/2017
+
+Class Reviewed: QuestionMarkBlockSprite.cs
+
+Review:
+Good use of variable names.  Also it is easy for me to understand your code and what you are trying to do.  The only thing that might 
+be confusing, to someone that does not know what you are trying to do, is the update method.  It takes a little bit to understand what you are
+doing, but when I had you explain it to me it made perfect sense.  I ended up using your logic to implement my animated coin sprite. 

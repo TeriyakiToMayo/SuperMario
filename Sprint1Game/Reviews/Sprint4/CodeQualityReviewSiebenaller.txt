@@ -1,0 +1,13 @@
+﻿Nic Siebenaller
+3/27/2017
+Sprint 4 Refactored Implementation
+
+RMushroomBlockCollisionTop.cs
+Chris Washington
+Review time: 10 minutes
+A hypothetical change that could be made to the game is getting the red mushroom to bounce after a
+collision with the top of block. This command would need to be changed because the velocity and 
+loaction of the mushroom are changed. While the checks for type are necessary given the general 
+collision handler we have implemented in the game, the command should only make a call to what 
+should be done rather than doing it in the class itself. The current method has higher coupling 
+than what would allow for the hypothetical change described above.

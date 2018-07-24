@@ -1,0 +1,18 @@
+﻿Author: Zhen Tian
+Date: 2017.3.27
+Sprint Number: 4
+Reviewed File: Camera/Camera2D.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+Specific comments on code quality:
+Camera2D.cs is a high cohesion and loose coupling design. The class only focuses basic functionalities 
+of camera such as changing position based on mario's moving and transforming the graphics. The 
+class uses interfaces to interact with other objects, for example, IMario. It does not use any 
+of other concrete classes which dramatically reduces its coupling. Overall, Camera2D.cs has high 
+code quality. 
+
+Hypothetical change to:
+Camera2D.cs is easy to extend. For instance, if the team needs to implement a transport object, 
+the taem only needs to implement a new method to assign new position of camera and make minor 
+changes to other variables. 

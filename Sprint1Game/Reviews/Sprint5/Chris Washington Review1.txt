@@ -1,0 +1,16 @@
+﻿Author: Chris Washington
+
+Date: 4/5/2017
+
+Sprint number: 5
+
+File being reviewed: HeadsUpDisplayPanel.cs
+
+Author of the .cs file being reviewed: Zhen Tian
+
+Number of minutes taken to complete the review: 5
+
+The HeadsUpDisplayPanel is very readable.  It is a focused class, that only has one real job.
+It creates and draws the sprites to the screen. It was smart to have the text me updated from 
+a different class. Also the fix text method was a good idea for making sure the certain text 
+were written in the correct format that the actual orignal Mario game had.

@@ -1,0 +1,20 @@
+﻿Author: Zhen Tian
+Date: 2017.4.23
+Sprint Number: 6
+Reviewed File: Spawning/Spawner.cs
+Author of Reviewed File: Matt Langsenkamp
+Review Time: 20 min
+
+Specific comments on code quality:
+There are two problems in the Spawner.cs. Firstly, it has tight coupling with other concrete classes 
+such as Goomba2.cs, Koopa2.cs and Horse.cs. In order to solve this problem, there should be an 
+enemy factory so that Spawner does not need to use concrete constructors of those enemy objects. 
+Secondly, it has high cyclomatic complexity. There are several if statements and one switch statement, 
+which dramatically increases the complexity. Overall, the Spawner.cs has high cohesion since it 
+is only responsible for spawning enemies, however, it has tight coupling with other classes and 
+complex logic structure.
+
+Hypothetical change to:
+The Spawner.cs is easy to extend. If the team is in need of a new type of enemy to spawn, what the 
+team needs to do is to add a new branch to switch statement in "SpawnEnemy" method and no other 
+part is needed to change.

@@ -1,0 +1,16 @@
+﻿Nic Siebenaller
+2/27/2017
+Sprint 3 Refactored Implementation
+
+MarioRMushroomCollisionTop.cs
+Chris Washington
+Review time: 5 minutes
+A hypothetical change that could be made to the game is creating a transition form when Mario
+collects the mushroom to changing size. This command would be unaffected because calling the method
+mario.State.ChangeToBig() will handle the transition ideally so this piece of code would not need
+to be modified at all. The code only relies on the objects being passed in the order that is 
+expected, so the client code calling this needs to be aware of this, which my not make it as robust, 
+but without being able to cast the objects to a certain type an if-else structure would need to be
+used increasing cyclomatic complexity, but this benefit comes at the cost of needing to now more 
+implementation details in order to use the method. This is not the fault of the author of this
+class but rather the design of the game.

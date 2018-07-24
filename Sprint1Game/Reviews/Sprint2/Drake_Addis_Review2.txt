@@ -1,0 +1,11 @@
+﻿Author of the code review: Drake Addis
+Date of the code review: 2/13/2017
+Sprint number: 2
+Name of the .cs file being reviewed: KeyboardController.cs and Commands within Commands folder
+Author of the .cs file being reviewed: Matt Langsenkamp
+Specific comments on code quality: The syntax looks good and the KeyboardController applies only to pressed keys
+	so it has high cohesion.  The commands are very straight-forward and are extremely simple.
+A hypothetical change to make to the game related to file being reviewed and 
+how the current implementation could or could not easily support that change: The spacing in some of the commands
+	could be shortened a bit but other than that it looks good.  The code is very simple and doesn't have anything
+	that is unnecessary or that could be changed.

@@ -1,0 +1,16 @@
+﻿Author: Chris Washington
+
+Date: 3/10/2017
+
+Sprint number: 4
+
+File being reviewed: star.cs
+
+Author of the .cs file being reviewed: Zhen Tian
+
+Number of minutes taken to complete the review: 5
+
+The star class is written in a way to where it is easy to follow what the class is doing.
+The only complicated method is the update method. The method has a few if statments, but 
+the length and the if statements are needed in order to correctly implement the bouncing 
+motion that the start has.

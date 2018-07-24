@@ -1,0 +1,16 @@
+﻿Author: Zhen Tian
+Date: 2017.4.10
+Sprint Number: 5
+Reviewed File: Sound/SoundManager.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+Specific comments on code quality:
+The SoundManager.cs uses no concrete classes of the project, hence its coupling is loose. At the 
+same time, SoundManager.cs only focuses on stroing sound tracks used in the game and relative methods 
+such as PlayOverWorldSong(), therefore it is a high cohesion design. 
+
+Hypothetical change to:
+The SoundManager.cs is very easy and convenient to extend. For instance, if the team needs another 
+soundeffect or another background music, only a new field which stores the sound and a method to 
+play the sound are needed. 

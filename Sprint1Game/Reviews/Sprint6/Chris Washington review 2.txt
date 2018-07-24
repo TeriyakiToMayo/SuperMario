@@ -1,0 +1,15 @@
+﻿Author: Chris Washington
+
+Date: 4/23/2017
+
+Sprint number: 5
+
+File being reviewed: TitleDisplayPanel.cs
+
+Author of the .cs file being reviewed: Zhen Tian
+
+Number of minutes taken to complete the review: 5
+
+I feel that this class is very maintainable.  If we wanted to after this class add more levels,
+the way the class is written makes it easy to add the needed changes in order to incorporate
+new levels into the title screen. 

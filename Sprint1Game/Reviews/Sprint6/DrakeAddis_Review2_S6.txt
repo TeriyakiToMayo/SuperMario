@@ -1,0 +1,12 @@
+﻿Author of the code review: Drake Addis
+Date of the code review: 4/23/2017
+Sprint number: 6
+Name of the .cs file being reviewed: SpawnManager.cs
+Author of the .cs file being reviewed: Matt Langsenkamp
+Specific comments on code quality: Overall the quality has improved and the in-line comment has been removed.  The code is 
+	still a little confusing but this is understandable due to the logic behind it. It is still easily readable and
+	understandable though.
+A hypothetical change to make to the game related to file being reviewed and 
+how the current implementation could or could not easily support that change: One change that is strongly recommended 
+	would be to remove the magic numbers for the amount of enemies and make use of the utility classes. This would help 
+	the game's maintainability in the long run and it would be very easy to implement.

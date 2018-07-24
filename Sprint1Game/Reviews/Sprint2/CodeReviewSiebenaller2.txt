@@ -1,0 +1,13 @@
+﻿Nic Siebenaller
+2/13/2017
+Sprint 2 Refactored Implementation
+
+CoinSprite.cs
+Chris Washington
+Review time: 10 minutes
+I think the code exhibits high cohesion since it is focused on only maintaining the coin sprite.
+Having all constants in the ItemSpriteFactory make maintainability easier with the single point
+of control. 
+A change that the class might need to handle is for a moving coin. The class would need to be 
+able to handle a change in the destination rectangle, which I do not think with this code it 
+would be difficult to implement, as it would just be adjusting the y-value of the destination.

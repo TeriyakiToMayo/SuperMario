@@ -1,0 +1,11 @@
+﻿Author of the code review: Drake Addis
+Date of the code review: 3/27/2017
+Sprint number: 4
+Name of the .cs file being reviewed: FireBallProjectile.cs
+Author of the .cs file being reviewed: Matt Langsenkamp
+Specific comments on code quality: Overall the quality of code is excellent.  It is easy to read, follow, and understand.
+	There is however one commented line of code which should be removed.
+A hypothetical change to make to the game related to file being reviewed and 
+how the current implementation could or could not easily support that change: I would suggest changing the Update method a bit.
+	It looks as though some of the if statements could be avoided/combined to shorten code.  This could be easily implemented
+	by simply removing the if statement if deemed unnecessary and moving around the code to make it work seamlessly.

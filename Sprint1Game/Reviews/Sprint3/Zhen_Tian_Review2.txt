@@ -1,0 +1,17 @@
+﻿Author: Zhen Tian
+Date: 2017.2.27
+Sprint Number: 3
+Reviewed File: GameObjects/TheGameObjectManager
+Author of Reviewed File: Nic
+Review Time: 20 min
+
+Code Quality:
+The GameObjectManager class is well designed. It exhibits a high cohesion because it only 
+focuses on initializing all game objects. At the same time, it uses all interfaces to handle 
+the game objects, which is a loose coupling design. The only problem is that the it might 
+need a list to handle all controllers instead of updating them manually. 
+
+Flexitiblity to Hypothetical Change:
+The GameObjectManager class is flexible to changes and easy to extend. When the team needs a 
+new type of game objects, the team only needs to add a new list variable and add new methods 
+corresponding to it without changing other parts of the class. 

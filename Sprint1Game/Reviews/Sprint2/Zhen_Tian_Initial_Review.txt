@@ -1,0 +1,17 @@
+﻿Author: Zhen Tian
+Date: 2017.2.8
+Sprint Number: 2
+Reviewed File: Enemies/Koopa.cs & StateMachines/KoopaStateMachine.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+Readiblity:
+Drake constantly conforms to a good naming convention in these files. All class members and 
+parameters are in Camel Casing style while the names of classes, properties and methods are 
+in Pascal style. The names of the variables and methods are clear and easy to understand. 
+
+Flexitiblity to Hypothetical Change:
+The implementations are in good practice and easy to extend. For instance, if a fly mode is 
+needed for Koopa, what Drake needs to do is simply to add a boolean variable named "isFlying" 
+to indicated the state of koopa and add a Koopa flying sprite in the KoopaStateMachine.cs. 
+And then only some minor changes in the statemachine are needed for the state transitions. 

@@ -1,0 +1,18 @@
+﻿Author: Zhen Tian
+Date: 2017.2.13
+Sprint Number: 2
+Reviewed File: Enemies/Koopa.cs & StateMachines/KoopaStateMachine.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+Code Quality:
+The classes are in high cohesion because the Koopa.cs only focuses on handling the behaviors 
+of Koopa and KoopaStateMachine.cs is only responsible for concrete implementations of state 
+and sprite changes. And the coupling of both classes is loose. In KoopaStateMachine.cs, Drake 
+uses SpriteFactory to get new sprite objects instead of directly creating them. This is a 
+good practice because the changing of sprites will not impair the functionality of KoopaStateMachine. 
+
+Flexitiblity to Hypothetical Change:
+The code in both classes are in good style and are easy to extend. For instance, if a new state is 
+needed for Koopa, Drake only needs to create a new method in KoopaStateMachine to handle the 
+transition of the state without changing other methods. 

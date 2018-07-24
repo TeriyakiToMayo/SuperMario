@@ -1,0 +1,8 @@
+﻿Team 5 
+Burndown Chart Assessment
+Sprint 5
+
+The bump returned for this sprint due to the majority of the work being done in the last few days. Additionally, members
+tend not to update the time as they are progressing so there are sudden drops whenever something is completed. The next 
+sprint will have more time associated with planning, so the trend should be better as more stuff will be done at the 
+beginning of the sprint. The automated reminders continue to help the group also.

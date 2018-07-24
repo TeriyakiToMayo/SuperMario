@@ -1,0 +1,12 @@
+﻿Author: Zhen Tian
+Date: 2017.4.5
+Sprint Number: 5
+Reviewed File: Sound/SoundManager.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+What is readable and what is not:
+All variable names and method names of SoundManager are in correct style and are easy for others to 
+understand. The only problem of SoundManager is that the type of both overworldSound and underworldSound
+are "Song", and other ones are "SoundEffect". It might be better to use overworldMusic instead of overworldSound 
+because this name can indicate that it is a piece of background music not a sound effect. 

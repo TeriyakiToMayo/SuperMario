@@ -1,0 +1,14 @@
+﻿Author of the code review: Matt Langsenkamp
+
+Date of the code review: 3/10/2017
+
+Sprint number: 4
+
+Name of the .cs file being reviewed: TheGameObjectManager.cs
+
+Author of the .cs file being reviewed: Nic Siebenaller
+
+Number of minutes taken to complete the review: 12
+
+Specific comments on what is readable and what is not: All of the code is properly indented and is relatively easy to follow as
+much of it is just iterating over loops. variable names are intuitive and caseing is considtent.

@@ -1,0 +1,13 @@
+﻿Author: Zhen Tian
+Date: 2017.2.22
+Sprint Number: 3
+Reviewed File: LevelSpecification/CSVWriter.cs
+Author of Reviewed File: Drake Addis
+Review Time: 20 min
+
+What is readable and what is not:
+The names of fields and properties in CSVWriter.cs are easy to understand and are in 
+correct styles of casing. However, the casing of the name of method writeObject() is not 
+correct, which should be WriteObject(). Additionally, the parameters of writeObject() 
+"x", "y" and "s" are not easy to understand. To improve this, using "objectCode" instead 
+of "s" might be a good choice. 

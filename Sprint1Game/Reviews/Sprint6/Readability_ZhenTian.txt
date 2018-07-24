@@ -1,0 +1,12 @@
+﻿Author: Zhen Tian
+Date: 2017.4.23
+Sprint Number: 6
+Reviewed File: Spawing/Spawner.cs
+Author of Reviewed File: Matt Langsenkamp
+Review Time: 20 min
+
+What is readable and what is not:
+The names of fields, methods and parameters of Spawner.cs are in correct style. And most of 
+the variable names and method names are easy to understand. However, the meaning of variable 
+"RightFacing" may be ambiguous because reader does not know whether it refers to mario or not.
+Therefore, using "EnemyRightFacing" might be better;

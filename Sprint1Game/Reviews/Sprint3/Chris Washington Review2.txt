@@ -1,0 +1,15 @@
+﻿Author: Chris Washington
+
+Date: 2/27/2017
+
+Sprint number: 3
+
+Name of the .cs file being reviewed: Game1.cs in the TestingSuite3 Project
+
+Author of the .cs file being reviewed: Zhen Tian 
+
+Review:  I thought what you did was a gret way to efficiently implement the testing.  Even though the class is long
+that is okay, because there are a lot of test cases.  For all the test cases that needed to be checked the class is
+actually not that long.  Also the code seems easily maintainable.  The only think that you will have to add are cases 
+for when we need to implement collision testing for the items colliding with enemies and visa versa.  Also for the enemies 
+and items to collide with blocks or pipes.

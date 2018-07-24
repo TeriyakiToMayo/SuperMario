@@ -1,0 +1,17 @@
+﻿Author of the code review: Matt Langsenkamp
+
+Date of the code review: 2/27/2017
+
+Sprint number: 3
+
+Name of the .cs file being reviewed: AllCollisionHandler.cs, CollisionSide.cs, CollisionXMLParser
+
+Author of the .cs file being reviewed: Nic Siebenaller
+
+Specific comments on code quality: AllCollisionHandler has some if statements that are nested three deep, however their is not much that could be 
+done in the way of making this code more modular. With the exception of one method (DetermineCollisionSide) all methods are short and concise.
+The code itself is well indented and easy to read. With the passable exception of the rectangle class coupling is low.
+
+A hypothetical change to make to the game related to file being reviewed and how the 
+current implementation could or could not easily support that change: in the DetermineCollisionSide method the lines 59 - 73 and 77 - 92 could be refactored into their own methods 
+to reduce the length of the statement. Naming these mathods would also give a clearer indication of what they do.
